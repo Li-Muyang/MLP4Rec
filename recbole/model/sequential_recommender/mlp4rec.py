@@ -2,8 +2,11 @@ import torch
 from torch import nn
 from functools import partial
 from recbole.model.abstract_recommender import SequentialRecommender
-from recbole.model.layers import TransformerEncoder, FeatureSeqEmbLayer, VanillaAttention
+from recbole.model.layers import TransformerEncoder, FeatureSeqEmbLayer
 from recbole.model.loss import BPRLoss
+
+# Partially based on the implementation of MLPMixer from Lucidrain
+# https://github.com/lucidrains/mlp-mixer-pytorch
 
 class PreNormResidual(nn.Module):
     def __init__(self, dim, fn):
