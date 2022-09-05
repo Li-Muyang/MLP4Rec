@@ -13,11 +13,11 @@ Then, you can simply running run_mlp4rec.py from root directory, default dataset
 ## Ciation
 
 If you feel our work is insightful, please consider citing us 
-'''
+```
 @article{li2022mlp4rec,
   title={MLP4Rec: A Pure MLP Architecture for Sequential Recommendations},
   author={Li, Muyang and Zhao, Xiangyu and Lyu, Chuan and Zhao, Minghao and Wu, Runze and Guo, Ruocheng},
   journal={arXiv preprint arXiv:2204.11510},
   year={2022}
 }
-'''
+```
