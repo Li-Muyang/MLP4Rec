@@ -10,6 +10,10 @@ Before running MLP4Rec, please make sure you visit https://recbole.io/ and https
 
 Then, you can simply running run_mlp4rec.py from root directory, default dataset is ml-100k, experiment configurations is by default sync with ours https://www.ijcai.org/proceedings/2022/297.
 
+## Report a problem
+
+If you encounter any problem, please contact Muyang Li by muli0371@uni.sydney.edu.au
+
 ## Ciation
 
 If you feel our work is insightful, please consider citing us 
